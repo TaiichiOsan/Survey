@@ -319,10 +319,7 @@ import React, { Component } from 'react';
             }
           </ScrollView>
         </View>
-        <KeyboardAvoidingView
-
-       behavior="padding"
-       >
+        
         <View style = { styles.ChildView }>
                   <TouchableOpacity activeOpacity = { 0.7 }
                          onPress = { this.expand_collapse_Function }
@@ -346,7 +343,6 @@ import React, { Component } from 'react';
                          </TouchableOpacity>
                   </View>
               </View>
-              </KeyboardAvoidingView>
      </View>
       );
     }
